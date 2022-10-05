@@ -1,0 +1,122 @@
+:root {
+    --primary-color: hsl(350, 93%, 89%);
+    --secondary-color: Black;
+    --third-color: whitesmoke;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    max-height: 100vh;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    margin: 2rem;
+}
+
+h1 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 3.5rem;
+}
+
+#date-of-birth {
+    display: block;
+}
+
+#lucky-number {
+    display: block;
+}
+
+label {
+    margin: 0.5rem;
+    font-weight: 600;
+    font-size: larger;
+}
+
+input {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: 1rem;
+    font-size: 20px;
+}
+
+#output {
+    font-size: 30px;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    border-radius: 12px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.button:hover {
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+
+}
+
+.footer {
+    text-align: center;
+    margin: 2rem auto 10px auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem; */
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: larger;
+    /* box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24); */
+}
+
+.footer .list {
+    padding-inline-start: 0px;
+}
+
+.non-bullet-items {
+    list-style: none;
+}
+
+.list .list-inline-item {
+    display: inline;
+    padding: 1rem 0rem;
+}
+
+footer .links {
+    padding: 0.5rem 0.2rem;
+    display: inline-block;
+}
+
+.ionicons {
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+
+.ionicons:hover {
+    color: var(--third-color);
+}
+
+.footer .attributes {
+    color: var(--third-color);
+    font-size: 20px;
+}
